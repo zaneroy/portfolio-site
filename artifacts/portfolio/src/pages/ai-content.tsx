@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { Sparkles, Video, CheckCircle2, Play } from "lucide-react";
+import { Sparkles, CheckCircle2, Play } from "lucide-react";
 
 // AI Model Photography — Sterlink&Co
 import imgModel1 from "@assets/Image-Aug-31-2025-11_04_03-PM_1781225202752.png";
@@ -10,13 +10,10 @@ import imgModel3 from "@assets/Image-Aug-28-2025-03_40_52-PM-Photoroom_178122521
 import imgModel4 from "@assets/Image-Aug-31-2025-07_15_02-PM_1781225219144.png";
 import imgModel5 from "@assets/MPS-1820_1781225292020.webp";
 
-// AI Marketing Videos — served from public/videos/
-const videoSrc1 = "/videos/marketing-video-1.mp4";
-const videoSrc2 = "/videos/marketing-video-2.mp4";
-const videoSrc3 = "/videos/marketing-video-3.mp4";
-
-// Screen recording — TikTok feed
-import screenRecording from "@assets/Screen_Recording_2026-06-11_at_12.25.08_PM_1781225159750.mov";
+// AI Marketing Content images
+import imgAd1 from "@assets/image_1781294616230.png";
+import imgAd2 from "@assets/image_1781294631984.png";
+import imgAd3 from "@assets/image_1781294702969.png";
 
 export default function AIContent() {
   return (
@@ -123,9 +120,9 @@ export default function AIContent() {
             className="text-center mb-16"
           >
             <p className="text-xs tracking-[0.4em] uppercase text-primary mb-4 font-sans">Real Client Work — Sterlink&Co Jewellery</p>
-            <h2 className="text-4xl md:text-5xl font-display font-semibold mb-4">AI Marketing Videos</h2>
+            <h2 className="text-4xl md:text-5xl font-display font-semibold mb-4">AI Marketing Content</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Cinematic product marketing videos generated with AI — ready for Instagram Reels, TikTok, and paid ad campaigns.
+              Scroll-stopping AI-generated marketing creatives — product campaigns, ad concepts, and brand visuals ready for Instagram, TikTok, and paid ads. I also create AI-generated video content, short-form reels, and motion ads.
             </p>
           </motion.div>
 
@@ -137,24 +134,19 @@ export default function AIContent() {
             className="grid grid-cols-1 md:grid-cols-3 gap-6"
           >
             {[
-              { src: videoSrc1, label: "Marketing Ad — Video 1" },
-              { src: videoSrc2, label: "Marketing Ad — Video 2" },
-              { src: videoSrc3, label: "Marketing Ad — Video 3" },
-            ].map((vid, i) => (
+              { src: imgAd1, label: "AI Marketing Post" },
+              { src: imgAd2, label: "AI Ad Creative" },
+              { src: imgAd3, label: "AI Brand Concept" },
+            ].map((item, i) => (
               <div key={i} className="rounded-xl overflow-hidden border border-border shadow-xl group bg-black">
-                <div className="relative">
-                  <video
-                    src={vid.src}
-                    controls
-                    muted
-                    playsInline
-                    preload="metadata"
-                    className="w-full h-[480px] object-contain bg-black"
-                  />
-                </div>
+                <img
+                  src={item.src}
+                  alt={item.label}
+                  className="w-full h-[480px] object-cover"
+                />
                 <div className="px-4 py-3 bg-secondary/20 border-t border-border flex items-center gap-2">
                   <Play className="w-3 h-3 text-primary shrink-0" />
-                  <p className="text-xs font-sans text-muted-foreground tracking-wide">{vid.label}</p>
+                  <p className="text-xs font-sans text-muted-foreground tracking-wide">{item.label}</p>
                 </div>
               </div>
             ))}
@@ -195,18 +187,15 @@ export default function AIContent() {
               transition={{ duration: 0.6 }}
               className="w-full lg:w-3/5"
             >
-              <div className="rounded-xl overflow-hidden border border-border shadow-2xl bg-black">
-                <video
-                  src={screenRecording}
-                  controls
-                  muted
-                  playsInline
-                  preload="metadata"
-                  className="w-full h-[520px] object-contain bg-black"
+              <div className="rounded-xl overflow-hidden border border-border shadow-2xl">
+                <img
+                  src={imgModel4}
+                  alt="AI Content Design — Sterlink&Co TikTok Feed"
+                  className="w-full h-[520px] object-cover object-top"
                 />
                 <div className="px-4 py-3 bg-secondary/20 border-t border-border flex items-center gap-2">
-                  <Video className="w-3 h-3 text-primary shrink-0" />
-                  <p className="text-xs font-sans text-muted-foreground tracking-wide">TikTok — Sterlink&Co content feed walkthrough</p>
+                  <Sparkles className="w-3 h-3 text-primary shrink-0" />
+                  <p className="text-xs font-sans text-muted-foreground tracking-wide">AI Content Design — Sterlink&Co TikTok Feed</p>
                 </div>
               </div>
             </motion.div>
@@ -223,7 +212,7 @@ export default function AIContent() {
               </div>
               <h3 className="text-3xl md:text-4xl font-display font-semibold">TikTok Content for Sterlink&Co</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                A consistent, high-quality TikTok feed powered by AI-generated product videos and model content — building brand presence and driving discovery for Sterlink&Co jewellery.
+                A consistent, high-quality TikTok feed powered by AI-generated product content and model photography — building brand presence and driving discovery for Sterlink&Co jewellery. I also create AI-generated video content, short-form reels, and motion ads.
               </p>
               <ul className="space-y-2 text-sm text-muted-foreground font-sans">
                 {[
