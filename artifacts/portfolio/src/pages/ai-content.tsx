@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { Sparkles, CheckCircle2, Play } from "lucide-react";
+import { Sparkles, Video, CheckCircle2, Play } from "lucide-react";
 
 // AI Model Photography — Sterlink&Co
 import imgModel1 from "@assets/Image-Aug-31-2025-11_04_03-PM_1781225202752.png";
@@ -9,6 +9,9 @@ import imgModel2 from "@assets/Image-Sep-1-2025-07_53_22-PM_1781225207729.png";
 import imgModel3 from "@assets/Image-Aug-28-2025-03_40_52-PM-Photoroom_1781225214373.png";
 import imgModel4 from "@assets/Image-Aug-31-2025-07_15_02-PM_1781225219144.png";
 import imgModel5 from "@assets/MPS-1820_1781225292020.webp";
+
+// Screen recording — TikTok feed
+import screenRecording from "@assets/Screen_Recording_2026-06-11_at_12.25.08_PM_1781225159750.mov";
 
 // AI Marketing Content images
 import imgAd1 from "@assets/image_1781294616230.png";
@@ -187,15 +190,18 @@ export default function AIContent() {
               transition={{ duration: 0.6 }}
               className="w-full lg:w-3/5"
             >
-              <div className="rounded-xl overflow-hidden border border-border shadow-2xl">
-                <img
-                  src={imgModel4}
-                  alt="AI Content Design — Sterlink&Co TikTok Feed"
-                  className="w-full h-[520px] object-cover object-top"
+              <div className="rounded-xl overflow-hidden border border-border shadow-2xl bg-black">
+                <video
+                  src={screenRecording}
+                  controls
+                  muted
+                  playsInline
+                  preload="metadata"
+                  className="w-full h-[520px] object-contain bg-black"
                 />
                 <div className="px-4 py-3 bg-secondary/20 border-t border-border flex items-center gap-2">
-                  <Sparkles className="w-3 h-3 text-primary shrink-0" />
-                  <p className="text-xs font-sans text-muted-foreground tracking-wide">AI Content Design — Sterlink&Co TikTok Feed</p>
+                  <Video className="w-3 h-3 text-primary shrink-0" />
+                  <p className="text-xs font-sans text-muted-foreground tracking-wide">TikTok — Sterlink&Co content feed walkthrough</p>
                 </div>
               </div>
             </motion.div>
