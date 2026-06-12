@@ -1,0 +1,50 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "ByUKKPKOa3DY7xK3Z6dqj"
+uri = "file://artifacts/portfolio/src/assets/images/jewellery.png"
+type = "image"
+title = "Jewellery website mockup"
+
+[[generated]]
+id = "ipwTf4K31nInVaDKLK-n0"
+uri = "file://artifacts/portfolio/src/assets/images/cleaning.png"
+type = "image"
+title = "Cleaning website mockup"
+
+[[generated]]
+id = "-Bpj8e9g8nXNtCj4_Kv_z"
+uri = "file://artifacts/portfolio/src/assets/images/roofing.png"
+type = "image"
+title = "Roofing website mockup"
+
+[[generated]]
+id = "MZPeUkfDZxY2IDFXr8b3w"
+uri = "file://artifacts/portfolio/src/assets/images/electrician.png"
+type = "image"
+title = "Electrician website mockup"
+
+[[generated]]
+id = "McLWjss090Gphnh6pHOWw"
+uri = "file://artifacts/portfolio/src/assets/images/paving.png"
+type = "image"
+title = "Paving website mockup"
+
+[[generated]]
+id = "MERYji02mvA_zM62ZOZu-"
+uri = "file://artifacts/portfolio/src/assets/images/headshot.png"
+type = "image"
+title = "Professional headshot"
+
+[[generated]]
+id = "gLZzizetobyPgpWtY4mgi"
+uri = "file://artifacts/portfolio/src/assets/images/branding.png"
+type = "image"
+title = "Branding showcase"
+
+[[generated]]
+id = "R-sR6_lSPsviQuoxSrMvD"
+uri = "file://artifacts/portfolio/src/assets/images/social-media.png"
+type = "image"
+title = "Social media posts"

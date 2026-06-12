@@ -1,0 +1,364 @@
+You are a senior frontend developer, UX designer, creative director, QA engineer, and portfolio optimization specialist.
+
+Do NOT redesign the website from scratch.
+
+Your task is to perform a complete professional audit and improvement pass on the existing portfolio website and make it production-ready.
+
+The website already has a strong design direction. Your goal is to refine, improve, optimize, and perfect the existing website.
+
+---
+
+# PRIMARY OBJECTIVE
+
+Review the entire portfolio website and ensure that:
+
+* Every image is displayed correctly.
+* Every video is displayed correctly.
+* Every gallery looks professional.
+* Every page is visually balanced.
+* Every asset loads properly.
+* Every link works.
+* Every animation works smoothly.
+* The site works perfectly after deployment and publishing.
+
+The final result should feel like a premium digital agency portfolio.
+
+---
+
+# MEDIA REVIEW
+
+Perform a complete review of every media asset on the website.
+
+Review:
+
+* Website screenshots
+* Branding images
+* Logo designs
+* Banner designs
+* AI-generated creatives
+* Product images
+* Social media posts
+* Videos
+* Hero images
+* Portfolio galleries
+
+---
+
+# IMAGE OPTIMIZATION
+
+The current website contains media with different dimensions and orientations.
+
+Review every image individually and display it according to its natural proportions.
+
+## Landscape Images
+
+* Display wider.
+* Allow larger presentation areas.
+* Showcase them prominently.
+
+## Portrait Images
+
+* Preserve their natural orientation.
+* Do not crop important content.
+* Maintain correct proportions.
+
+## Square Images
+
+* Display in balanced cards.
+* Maintain visual consistency.
+
+## Banner Images
+
+* Display larger horizontally.
+* Allow additional width.
+* Avoid making banners appear small or compressed.
+
+---
+
+# IMAGE DISPLAY RULES
+
+Do NOT force all images into identical card sizes.
+
+Do NOT aggressively crop images.
+
+Do NOT cut off important visual content.
+
+Visitors should be able to clearly view the full image whenever possible.
+
+Use responsive layouts that adapt to image dimensions.
+
+Adjust card sizing dynamically where necessary.
+
+---
+
+# GALLERY SYSTEM IMPROVEMENTS
+
+Review every gallery throughout the website.
+
+Replace any rigid layouts that cause visual imbalance.
+
+Create intelligent media presentation.
+
+Wide images should receive wider layouts.
+
+Portrait images should retain natural height.
+
+Banner images should display properly.
+
+Square images should remain balanced.
+
+Use a premium agency-style gallery layout.
+
+Ensure galleries feel clean, professional, and visually organized.
+
+---
+
+# VIDEO REVIEW
+
+Inspect every video on the website.
+
+Verify that:
+
+* Videos load correctly.
+* Videos play correctly.
+* Videos display correctly.
+* Videos remain functional after publishing.
+* Videos remain functional after deployment.
+* Videos use proper asset references.
+* Videos use proper relative paths.
+* No broken video links exist.
+* No missing assets exist.
+
+---
+
+# VIDEO DISPLAY RULES
+
+Videos must:
+
+* Preserve aspect ratio.
+* Display the full frame.
+* Remain responsive.
+* Work on desktop.
+* Work on tablet.
+* Work on mobile.
+* Use professional controls.
+* Include loading fallbacks when necessary.
+
+Fix any issue that could cause videos to stop working after deployment.
+
+---
+
+# HOMEPAGE UPDATE
+
+Replace the current homepage images with the newly provided images.
+
+Use the provided images throughout the homepage where appropriate.
+
+Review the layout of each image individually and ensure it is displayed in the most suitable format based on its dimensions and orientation.
+
+Wide images should be displayed prominently.
+
+Portrait images should maintain their natural proportions.
+
+Square images should be displayed in balanced layouts.
+
+Do not crop important parts of any image.
+
+Ensure visitors can clearly see the full image content.
+
+Adjust card sizes, gallery layouts, and showcase sections as needed so every image is presented professionally.
+
+Maintain consistency with the site's existing premium design style.
+
+The homepage should remain visually balanced, modern, and high-end while showcasing the newly provided images in the best possible way.
+
+---
+
+# NEW PROGRAMMING PAGE
+
+Create a completely new page called:
+
+Programming
+
+Add it to:
+
+* Desktop navigation
+* Mobile navigation
+* Footer navigation
+* Internal routing
+
+The page should match the quality and style of the rest of the portfolio.
+
+Use the programming-related images provided.
+
+---
+
+# PROGRAMMING PAGE CONTENT
+
+Showcase the following skills:
+
+* HTML
+* CSS
+* JavaScript
+* Java
+* PHP
+* SQL
+* Python
+
+Organize them into sections:
+
+## Frontend Development
+
+* HTML
+* CSS
+* JavaScript
+
+## Backend Development
+
+* PHP
+* SQL
+* Python
+
+## Programming & Software Development
+
+* Java
+* Python
+
+Create professional project cards, technology showcases, visual displays, and skill highlights.
+
+The page should feel like a professional software development portfolio section.
+
+---
+
+# RESPONSIVENESS REVIEW
+
+Review every page on:
+
+* Mobile
+* Tablet
+* Desktop
+* Large desktop screens
+
+Fix:
+
+* Cropped media
+* Broken layouts
+* Overflow issues
+* Alignment issues
+* Spacing inconsistencies
+* Responsive bugs
+
+Ensure all pages scale correctly.
+
+---
+
+# DESIGN CONSISTENCY
+
+Review the entire website.
+
+Ensure consistency across:
+
+* Typography
+* Spacing
+* Card layouts
+* Image styling
+* Hover effects
+* Animations
+* Buttons
+* Navigation
+
+Maintain the current premium aesthetic.
+
+Do not downgrade the visual quality.
+
+---
+
+# PERFORMANCE OPTIMIZATION
+
+Optimize:
+
+* Images
+* Video loading
+* Asset loading
+* Lazy loading
+* Rendering performance
+
+Remove unnecessary assets where appropriate.
+
+Ensure no broken references remain.
+
+---
+
+# ACCESSIBILITY
+
+Review:
+
+* Text readability
+* Contrast
+* Navigation usability
+* Mobile interactions
+* Button accessibility
+
+Improve where necessary.
+
+---
+
+# QUALITY ASSURANCE
+
+Perform a complete audit of the entire website.
+
+Verify:
+
+* Every page loads correctly.
+* Every image loads correctly.
+* Every video works correctly.
+* Every route works.
+* Every navigation link works.
+* Every button works.
+* Every gallery works.
+* Every form works.
+* Every animation works smoothly.
+* No console errors exist.
+* No missing assets exist.
+* No broken links exist.
+
+Fix all issues discovered.
+
+---
+
+# DEPLOYMENT REVIEW
+
+Before finishing:
+
+Verify that the website will function correctly after publishing.
+
+Check:
+
+* Image paths
+* Video paths
+* Asset references
+* Routing
+* Build process
+* Production compatibility
+
+Fix any issue that could cause assets to break after deployment.
+
+---
+
+# FINAL REVIEW
+
+Perform one final complete review of the website.
+
+Ensure:
+
+* The new Programming page is fully integrated.
+* Homepage images have been updated with the newly provided images.
+* All images are displayed professionally.
+* All videos are displayed professionally.
+* All galleries are optimized.
+* All pages are polished.
+* The site is fully responsive.
+* The site is production-ready.
+* The site is client-ready.
+
+The final result should feel like a premium digital agency and creative technology portfolio that showcases websites, branding, AI content, automation, social media services, and programming expertise in a highly professional manner.

@@ -1,0 +1,267 @@
+Build a premium multi-page portfolio website for a digital solutions specialist and deploy it professionally.
+
+Create a modern, fast, mobile-responsive portfolio website with a premium dark theme, smooth animations, strong typography, and an agency-quality layout. The site should feel polished and trustworthy for small business clients.
+
+Tech Stack & Deployment
+
+Use Next.js 14 (App Router) with TypeScript.
+
+Style with Tailwind CSS and subtle Framer Motion animations.
+
+Use optimized images and responsive layouts.
+
+Initialize a Git repository and make a clean first commit.
+
+Create a proper .gitignore for Node/Next.js.
+
+Prepare the project for deployment on Vercel.
+
+Push the code to a GitHub repository named digital-portfolio-site.
+
+Deploy the site to Vercel and provide the live URL.
+
+Site Structure
+
+Home – Hero, overview, featured work, testimonials, CTA.
+
+Websites & Development – Showcase custom business websites.
+
+Branding & Design – Logos, banners, packaging, Figma work.
+
+AI Content Creation – Product editing, AI videos, AI product models.
+
+Chatbots & Automation – Customer support bots and AI agents.
+
+Social Media Services – Posts, UGC videos, management examples.
+
+About – Experience, process, industries served.
+
+Contact – Formspree-powered contact form plus WhatsApp and email.
+
+Brand Positioning
+
+Use this positioning throughout the site:
+
+“Websites, Branding, AI Automation & Marketing Solutions for Small Businesses.”
+
+The tone should be confident, professional, and results-focused.
+
+Navigation
+
+Desktop and mobile navigation should include:
+
+Home
+
+Websites
+
+Branding
+
+AI Content
+
+Chatbots
+
+Social Media
+
+About
+
+Contact
+
+Homepage Requirements
+
+Hero Section
+
+Headline: “Websites, Branding & AI-Powered Marketing Solutions”
+
+Subheadline explaining that the business helps local companies grow through custom websites, branding, AI content, automation, and digital marketing.
+
+Primary CTA: “View My Work”
+
+Secondary CTA: “Book a Consultation”
+
+Featured Services Grid
+
+Web Design & Development
+
+Branding & Design
+
+AI Content Creation
+
+Chatbots & Automation
+
+Social Media Management
+
+Hosting & Deployment
+
+Featured Work
+
+Show cards for websites built for:
+
+Jewellery business
+
+Home cleaning company
+
+Roofing company
+
+Electrician business
+
+Paving company
+
+Each card should include a screenshot placeholder, short description, and “Visit Site” button.
+
+Trust & Results
+
+Add a section with metrics placeholders such as:
+
+Projects completed
+
+Businesses helped
+
+Average response time
+
+Testimonials
+
+Include 3 placeholder testimonials in a clean card layout.
+
+Individual Service Pages
+
+Websites & Development Page
+
+Include:
+
+Custom business websites
+
+Landing pages
+
+Contact forms
+
+Responsive design
+
+Database integration
+
+Hosting & deployment with Vercel
+
+Create detailed project cards for each industry listed above.
+
+Branding & Design Page
+
+Create a gallery layout for:
+
+Logo designs
+
+Banner designs
+
+Packaging concepts
+
+Figma UI/UX designs
+
+AI Content Creation Page
+
+Showcase:
+
+Product photo editing
+
+AI product videos
+
+AI-generated product models
+
+Marketing creatives
+
+Use before/after style placeholders where appropriate.
+
+Chatbots & Automation Page
+
+Explain and showcase:
+
+Live customer support chatbot
+
+AI agent chatbot
+
+Lead generation automation
+
+Website integration
+
+Social Media Services Page
+
+Display:
+
+Social media post designs
+
+UGC video examples
+
+Social media management packages
+
+About Page
+
+Include:
+
+Professional introduction
+
+Industries worked with (jewellery, cleaning, roofing, electrical, paving, etc.)
+
+Process: Discover → Design → Build → Launch → Support
+
+Technical stack and tools
+
+Contact Page
+
+Formspree Integration
+
+Create a working contact form with these fields:
+
+Name
+
+Business Name
+
+Email
+
+Service Needed (dropdown)
+
+Project Details
+
+Dropdown options
+
+Website Development
+
+Website + Hosting
+
+Logo Design
+
+Branding Package
+
+AI Chatbot
+
+AI Product Content
+
+Social Media Management
+
+Full Business Package
+
+Other
+
+Use a placeholder Formspree endpoint and clearly mark where to replace it with the real endpoint.
+
+Also include:
+
+WhatsApp contact button
+
+Email address placeholder
+
+LinkedIn link placeholder
+
+Design Guidelines
+
+Premium dark background with subtle gradients.
+
+Accent color in electric blue or purple.
+
+Rounded cards, soft shadows, and glassmorphism effects where appropriate.
+
+Smooth scroll animations and hover effects.
+
+Excellent mobile responsiveness.
+
+Fast loading and clean accessibility practices.
+
+Content Placeholders
+
+Use realistic placeholder text and image placeholders, but structure everything so real client assets can be swapped in easily later.
